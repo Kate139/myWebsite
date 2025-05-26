@@ -1,0 +1,31 @@
+#fact {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fact {
+border-radius: 5px;
+padding: 1rem 2rem;
+margin: 0.5rem;
+font-size: 1.5rem;
+}
+
+.fact.color1 {
+    color: #21163d;
+    background-color: #bdafdc;
+
+}
+
+.fact.color2 {
+color: #cd73c6;
+  background: #5d488a;
+}
+
+.fact.color3 {
+    color: #bdafdc;
+  background-color: #cd73c6;
+}

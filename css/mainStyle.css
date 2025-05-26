@@ -171,7 +171,7 @@ figure {
 
 .charSheets {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
   gap: 10px;
   justify-content: center;
   margin-top: 20px;
@@ -180,8 +180,8 @@ figure {
 .charSheets img {
   width:auto;
   height: auto;
-  max-width: 30vw;
-  max-height: 100vh;
+  max-width: 45vw;
+  max-height: 150vh;
   border-radius: 5px;
   object-fit: contain;
   background-color: #fff; /* optional to fill empty space */

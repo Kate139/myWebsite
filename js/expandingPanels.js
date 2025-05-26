@@ -1,9 +1,3 @@
-function goToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-// Expanding panels logic
 document.addEventListener("DOMContentLoaded", () => {
   const panels = document.querySelectorAll('.panel');
 

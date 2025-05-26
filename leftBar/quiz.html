@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/purpleStyle.css" />
+  <link rel="stylesheet" href="../css/mainStyle.css" />
+  <link rel="stylesheet" href="../css/quiz.css" />
+  <script src="../js/quiz.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html" class="header">Kate139</a>
+  </header>
+
+  <div class="menuBar">
+    <a href="../index.html">Home</a>
+    <a href="../journal.html">Journal</a>
+    <a href="../projects.html">Projects</a>
+    <a href="../charInfo.html">Characters</a>
+  </div>
+
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question text</h2>
+      
+      <ol>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Question</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Question</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Question</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Question</label>
+        </li>
+      </ol>
+
+    </div>
+
+    <button class="button" style="font-size: 1rem;" id="submit">Submit</button>
+
+  </div>
+</body>
+
+</html>
