@@ -1,0 +1,24 @@
+.coverImg:hover {
+  transform: scale(1.02);
+}
+
+.coverAndImg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img, .coverImg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+figure {
+  max-width: 20%;
+  width: 40%;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+}

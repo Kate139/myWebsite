@@ -1,34 +1,34 @@
 const quizData = [
     {
-        question: "sample Text",
-        a: "answer",
-        b: "answer",
-        c: "answer",
-        d: "answer",
+        question: "Sample Text",
+        a: "Answer",
+        b: "Answer",
+        c: "Answer",
+        d: "Answer",
         correct: "d",
     },
-        {
-        question: "sample Text",
-        a: "answer",
-        b: "answer",
-        c: "answer",
-        d: "answer",
+    {
+        question: "Sample Text",
+        a: "Answer",
+        b: "Answer",
+        c: "Answer",
+        d: "Answer",
         correct: "d",
     },
-        {
-        question: "sample Text",
-        a: "answer",
-        b: "answer",
-        c: "answer",
-        d: "answer",
+    {
+        question: "Sample Text",
+        a: "Answer",
+        b: "Answer",
+        c: "Answer",
+        d: "Answer",
         correct: "d",
     },
-        {
-        question: "sample Text",
-        a: "answer",
-        b: "answer",
-        c: "answer",
-        d: "answer",
+    {
+        question: "Sample Text",
+        a: "Answer",
+        b: "Answer",
+        c: "Answer",
+        d: "Answer",
         correct: "d",
     },
 ];
@@ -86,9 +86,8 @@ submitBtn.addEventListener("click", () => {
             loadQuiz()
         } else {
             quiz.innerHTML = `
-            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-            
-            <button onclick="location.reload()">Reload</button>
+            <h3>You answered ${score}/${quizData.length} questions correctly</h3>
+                <a class="button" onclick="location.reload()">Reload</a>
             `
         }
     }
