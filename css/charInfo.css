@@ -1,0 +1,16 @@
+.charSheets {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.charSheets img {
+  width:auto;
+  height: auto;
+  max-width: 45vw;
+  max-height: 150vh;
+  border-radius: 5px;
+  object-fit: contain;
+}

@@ -1,0 +1,29 @@
+
+.cardContainer {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 1%;
+  align-items: center;
+}
+
+.cardImg {
+  width: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: inherit;
+}
+
+.cardContent {
+  width: 100%;
+  text-align: left;
+}
+

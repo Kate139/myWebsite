@@ -10,7 +10,6 @@ h1 {
 
 .faq {
     background-color: transparent;
-    border: 1px solid #5d488a;
     border-radius: 10px;
     margin: 20px 0;
     padding: 30px;
@@ -58,15 +57,9 @@ outline: 0;
 }
 
 .faq.active .faq-toggle .fa-times {
- color: #f0eaff;
     display: block;
 }
 
-
 .faq.active .faq-toggle .fa-chevron-down {
     display: none;
-}
-
-.faq.active .faq-toggle {
-    background-color: #5d488a;
 }
